@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Ignore",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Mark a transaction as ignored"
+            }
+          }
+        ],
+        "send": {
+          "callback": "transaction:ignore"
+        }
+      }
+    ]
+  }
+]
