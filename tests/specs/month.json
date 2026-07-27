@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/month",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Show this month's transaction summary by category and account"
+            }
+          }
+        ],
+        "send": {
+          "text": "/month"
+        }
+      }
+    ]
+  }
+]
